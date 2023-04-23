@@ -24,6 +24,12 @@
     flex: 1;
   }
 
+  .season-tble {
+    text-align: center;
+    position: absolute;
+    border: #1976d2;
+    text-decoration: rgb(158, 91, 3);
+  }
   .toolbar {
     position: absolute;
     top: 0;

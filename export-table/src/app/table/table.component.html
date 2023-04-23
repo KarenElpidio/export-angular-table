@@ -1,0 +1,15 @@
+<div class="season-tble">
+  <button (click)="exportToExcel()">Export to Excel</button>
+  <table id="season-tble">
+    <tr>
+      <th>Id</th>
+      <th>name</th>
+      <th>Fruit</th>
+    </tr>
+    <tr *ngFor="let season of Seasons">
+      <td>{{ season.id }}</td>
+      <td>{{ season.name }}</td>
+      <td>{{ season.fruit }}</td>
+    </tr>
+  </table>
+</div>
